@@ -1,0 +1,14 @@
+.table {
+    border: 10px solid rgb(115, 110, 110);
+
+}
+table.snakeBoard tr:nth-child(odd) td:nth-child(odd),
+table.snakeBoard tr:nth-child(even) td:nth-child(even){
+    background-color: rgb(244, 245, 245);
+}
+
+table.snakeBoard tr:nth-child(odd) td:nth-child(even),
+table.snakeBoard tr:nth-child(even) td:nth-child(odd){
+        background-color: rgb(203, 205, 206);
+
+}

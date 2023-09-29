@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="ostalo/jquery-3.7.0.js"></script>
+    <link rel="stylesheet" href="ostalo/bootstrap.min.css">   
+    
+    
+    <script src="zmijica-skripta.js"></script>
+    <title>Snake</title>
+
+
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 text-center">
+
+                <h4>Upustvo</h4>
+                <h5>Upravljanje zmijice se vrsi pomocu strelica na tastari. <br>
+                    Crveno polje oznacava komad hrane - dodaje jedan poen. <br>
+                    Zuto polje oznacava super hranu (pojavljuje se na svakih deset sekundi) -
+                    dodaje 10 poena. <br>
+                    Svaki pojeden komad hrane povecava zmijicu. <br>
+                    Igra se zavrsava ako se zmijica sudari sa ivicom ekrana ili sa sobom.
+                </h5>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12 text-center">
+                <h4>Podesavanja</h4>
+                <h6>Nivo:</h6>
+                <input type="radio" name="level" id="" value="1" checked>easy <br>
+                <input type="radio" name="level" id="" value="2">mid <br> 
+                <input type="radio" name="level" id="" value="3">hard <br>
+                <h6>Velicina:</h6>
+                <input type="radio" name="board-size" id="" value="1" checked>15 <br>
+                <input type="radio" name="board-size" id="" value="2">25 <br> 
+                <input type="radio" name="board-size" id="" value="3">35 <br>
+               
+                <a id="start-game-link" href="zmijica-igra.html">Zapocni igru</a> <br>
+                <a href="zmijica-rezultati.html">Vidi rezultate</a>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
